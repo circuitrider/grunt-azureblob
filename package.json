@@ -21,7 +21,7 @@
     "spa"
   ],
   "dependencies": {
-    "azure": "https://github.com/circuitrider/azure-sdk-for-node.git",
+    "azure": "https://github.com/circuitrider/azure-sdk-for-node.git#personal",
     "mime": "~1.2.9",
     "q": ">=0.9.3",
     "tmp": ">=0.0.18"
