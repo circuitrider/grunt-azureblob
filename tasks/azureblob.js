@@ -210,6 +210,7 @@ module.exports = function(grunt) {
 
     function copyFileToBlobStorage(containerName, destFileName, sourceFile, metadata) {
       var deferred = Q.defer();
+      console.log(blobService)
       blobService.createBlockBlobFromLocalFile(containerName, destFileName, sourceFile, metadata, function(err) {
         if (err) {
           grunt.log.error(err);
